@@ -1,0 +1,14 @@
+/* 
+This file is for setting overrides for elements like <body> or <a>.
+It can also be used to define variables.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit
+}
+
+
+:root {
+  --off-white: #fff5ee
+}
