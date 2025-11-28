@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'TeXGyreHerosCondensed';
+    src: local('TeXGyreHerosCondensed-Bold'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/TeXGyreHerosCondensed-Bold.woff2') format('woff2'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/TeXGyreHerosCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TeXGyreHeros';
+    src: local('TeXGyreHeros-Bold'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/TeXGyreHeros-Bold.woff2') format('woff2'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/TeXGyreHeros-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TeXGyreHeros';
+    src: local('TeXGyreHeros-BoldItalic'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/TeXGyreHeros-BoldItalic.woff2') format('woff2'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/TeXGyreHeros-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TeXGyreHerosCondensed';
+    src: local('TeXGyreHerosCondensed-BoldItalic'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/TeXGyreHerosCondensed-BoldItalic.woff2') format('woff2'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/TeXGyreHerosCondensed-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TeXGyreHerosCondensed';
+    src: local('TeXGyreHerosCondensed-Italic'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/TeXGyreHerosCondensed-Italic.woff2') format('woff2'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/TeXGyreHerosCondensed-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TeXGyreHerosCondensed';
+    src: local('TeXGyreHerosCondensed-Regular'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/TeXGyreHerosCondensed-Regular.woff2') format('woff2'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/TeXGyreHerosCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TeXGyreHeros';
+    src: local('TeXGyreHeros-Italic'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/TeXGyreHeros-Italic.woff2') format('woff2'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/TeXGyreHeros-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TeXGyreHeros';
+    src: local('TeXGyreHeros-Regular'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/TeXGyreHeros-Regular.woff2') format('woff2'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/TeXGyreHeros-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
