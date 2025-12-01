@@ -37,3 +37,10 @@
 .text--mono {
   font-family: "Fira Code", Courier New, monospace
 }
+
+.button {
+  background-color: var(--off-black);
+  color: var(--off-white);
+  padding: 0.8rem;
+  border-radius: 0.8rem
+}
