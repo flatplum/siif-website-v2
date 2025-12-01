@@ -19,12 +19,12 @@
 
   <main class="homepage">
     <section class="about-us">
-      <div class="about-us__col">
+      <div class="about-us__left">
         <h2 class="text text--serif text--h2">who we are</h2>
         <p class="text text--p">The Social Impact Investment Fund is the first and only student led investment fund in Victoria managing real capital. We provide students the opportunity to pitch investment ideas to a team of committee and sponsor representatives, and employ those ideas into a tangible portfolio.</p>
         <p class="text text--p"><b>All</b> proceeds go towards our nominated charities.</p>
       </div>
-      <div class="about-us__col">
+      <div class="about-us__right">
         <img class="about-us__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/about-us.jpg">
       </div>
     </section>
@@ -98,10 +98,12 @@
   flex-direction: column;
 }
 
-.about-us__col {
-  overflow: hidden;
-  border-radius: 24px;
+.about-us__left {
   text-align: center
+}
+
+.about-us__right {
+  border-radius: 24px;
 }
 
 .about-us__img {
@@ -115,9 +117,13 @@
     flex-wrap: nowrap;
   }
 
-  .about-us__col {
+  .about-us__left {
     text-align: left;
     width: calc(50% - 2rem);
+  }
+
+  .about-us__right {
+    width: calc(50% - 2rem)
   }
 }
 </style>
