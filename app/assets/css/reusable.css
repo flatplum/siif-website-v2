@@ -26,6 +26,10 @@
   text-align: center
 }
 
+.text--sans {
+  font-family: TeXGyreHeros, Helvetica, sans-serif
+}
+
 .text--serif {
   font-family: "DM Serif Display", Georgia, serif
 }
