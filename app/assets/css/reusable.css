@@ -29,3 +29,7 @@
 .text--serif {
   font-family: "DM Serif Display", Georgia, serif
 }
+
+.text--mono {
+  font-family: "Fira Code", Courier New, monospace
+}

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Fira Code';
+    src: local('Fira Code Light'), local('FiraCode-Light'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/FiraCode-Light.woff2') format('woff2'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/FiraCode-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: local('Fira Code Bold'), local('FiraCode-Bold'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/FiraCode-Bold.woff2') format('woff2'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/FiraCode-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: local('Fira Code Medium'), local('FiraCode-Medium'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/FiraCode-Medium.woff2') format('woff2'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/FiraCode-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: local('Fira Code Light'), local('FiraCode-Light'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/FiraCode-Light.woff2') format('woff2'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/FiraCode-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: local('Fira Code Regular'), local('FiraCode-Regular'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/FiraCode-Regular.woff2') format('woff2'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/FiraCode-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: local('Fira Code SemiBold'), local('FiraCode-SemiBold'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/FiraCode-SemiBold.woff2') format('woff2'),
+        url('https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/fonts/FiraCode-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

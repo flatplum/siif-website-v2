@@ -14,4 +14,5 @@
 
 @import url('~/assets/css/fonts/tex-gyre-heros.css');
 @import url('~/assets/css/fonts/dm-serif-display.css');
+@import url('~/assets/css/fonts/firacode.css');
 </style>
