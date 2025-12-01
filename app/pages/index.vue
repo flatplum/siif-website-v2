@@ -11,9 +11,7 @@
         <p class="text text--p"><b>All</b> proceeds go towards our nominated charities.</p>
       </div>
       <div class="about-us__col">
-        <div class="about-us__img-wrapper">
-          <img class="about-us__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/about-us.jpg">
-        </div>
+        <img class="about-us__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/about-us.jpg">
       </div>
     </section>
   </main>
@@ -39,28 +37,38 @@
 }
 
 .homepage {
-  padding: 4rem 0
+  padding: 4rem 0;
 }
 
 .about-us {
-  padding: 0 24rem;
+  padding: 0 max(4rem);
   display: flex;
   gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
 }
 
 .about-us__col {
   overflow: hidden;
   border-radius: 24px;
-  width: calc(50% - 2rem)
+  text-align: center
 }
 
 .about-us__img {
   width: 100%;
-  margin-top: -80px;
-  object-fit: cover
+  border-radius: 24px;
 }
 
-.about-us__img-wrapper {
-  height: 0;
+@media (min-width: 992px) {
+  .about-us {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .about-us__col {
+    text-align: left;
+    width: calc(50% - 2rem);
+  }
 }
 </style>
