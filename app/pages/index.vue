@@ -73,6 +73,11 @@
 .stat {
   list-style-type: none;
   text-align: center;
+  /*
+    Recommendation:
+      make the stat bar purposefully asymmetrical
+      to disguise different stat widths
+  */
 }
 
 .stat__number {
