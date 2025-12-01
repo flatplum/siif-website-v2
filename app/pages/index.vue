@@ -12,7 +12,7 @@
       </div>
       <div class="about-us__col">
         <div class="about-us__img-wrapper">
-          <img class="about-us__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/images/about-us.jpg">
+          <img class="about-us__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/about-us.jpg">
         </div>
       </div>
     </section>
@@ -23,7 +23,7 @@
 .hero-banner {
   width: 100%;
   height: 32rem;
-  background-image: url(https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/images/committee-hero--1920.jpg);
+  background-image: url(https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/committee-hero.jpg);
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: darken;
   background-position: 50% 30%;
