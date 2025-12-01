@@ -2,6 +2,20 @@
   <div class="hero-banner">
     <h1 class="text text--hero text--serif">social impact that's <em>different</em></h1>
   </div>
+  <ul class="stats-bar">
+    <li class="stat">
+      <h2 class="stat__number text--mono">$14,000+</h2>
+      <p class="stat__title text--sans">donated</p>
+    </li>
+    <li class="stat">
+      <h2 class="stat__number text--mono">$23,000+</h2>
+      <p class="stat__title text--sans">capital under management</p>
+    </li>
+    <li class="stat">
+      <h2 class="stat__number text--mono">450+</h2>
+      <p class="stat__title text--sans">members</p>
+    </li>
+  </ul>
 
   <main class="homepage">
     <section class="about-us">
@@ -38,6 +52,36 @@
 
 .homepage {
   padding: 4rem 0;
+}
+
+.stats-bar {
+  display: flex;
+  justify-content: center;
+  gap: 0 4rem;
+  padding: 2rem;
+  margin: 0;
+  filter: drop-shadow(0 0 1rem);
+  background-color: var(--off-white);
+  flex-wrap: wrap;
+  align-items: center;
+  /* This hack is necessary for the blur to stay straight */
+  width: calc(100% + 2rem);
+  left: -1rem;
+  position: relative
+}
+
+.stat {
+  list-style-type: none;
+  text-align: center;
+}
+
+.stat__number {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+}
+
+.stat__title {
+  margin: 0
 }
 
 .about-us {
