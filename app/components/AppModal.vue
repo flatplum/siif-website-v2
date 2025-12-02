@@ -31,7 +31,7 @@
 
 .site-overlay__window {
   height: 6rem;
-  opacity: 1;
+  background: none;
 }
 
 .site-overlay__body {
