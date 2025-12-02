@@ -9,6 +9,7 @@
       <li class="text"><NuxtLink href="/events">events</NuxtLink></li>
       <li class="text"><NuxtLink href="/contact">contact</NuxtLink></li>
     </ul>
+    <a class="site-nav__hamburger text--mono" href="#site-overlay">≡</a>
   </header>
 </template>
 
@@ -16,7 +17,9 @@
 .site-nav {
   height: 6rem;
   background: var(--off-white);
-  padding: 0 6rem;
+  max-width: 108rem;
+  padding: 0 1rem;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between
@@ -27,7 +30,20 @@
 }
 
 .site-nav__links {
-  display: flex;
-  gap: 2rem
+  display: none
+}
+
+.site-nav__hamburger {
+  font-size: 4rem
+}
+@media (min-width: 992px) {
+  .site-nav__links {
+    display: flex;
+    gap: 2rem
+  }
+
+  .site-nav__hamburger {
+    display: none
+  }
 }
 </style>
