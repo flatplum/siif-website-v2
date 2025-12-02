@@ -130,7 +130,7 @@
   }
 
   .about-us__right {
-
+    width: calc(50% - 2rem);
   }
 }
 </style>
