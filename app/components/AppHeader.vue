@@ -10,6 +10,7 @@
       <li class="text"><NuxtLink href="/contact">contact</NuxtLink></li>
     </ul>
     <a class="site-nav__hamburger text--mono" href="#site-overlay">≡</a>
+    <a class="site-nav__cross text--mono" href="#">🞫</a>
   </header>
 </template>
 
@@ -34,8 +35,30 @@
 }
 
 .site-nav__hamburger {
-  font-size: 4rem
+  font-size: 4rem;
+  pointer-events: auto;
 }
+
+.site-nav__cross {
+  font-size: 4rem;
+  display: none;
+  pointer-events: none;
+}
+
+/* See global.css for scroll disable */
+
+body:has(#site-overlay:target) .site-nav__links {
+  display: none;
+}
+body:has(#site-overlay:target) .site-nav__hamburger {
+  display: none;
+  pointer-events: none
+}
+body:has(#site-overlay:target) .site-nav__cross {
+  display: block; 
+  pointer-events: auto;
+}
+
 @media (min-width: 992px) {
   .site-nav__links {
     display: flex;

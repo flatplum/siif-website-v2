@@ -4,6 +4,7 @@
     <AppHeader />
     <NuxtPage />
     <AppFooter />
+    <AppModal />
   </div>
 </template>
 

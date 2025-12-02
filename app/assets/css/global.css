@@ -13,3 +13,9 @@ a {
   --off-white: #fff5ee;
   --off-black: #0e0e10;
 }
+
+html:has(#site-overlay:target),
+body:has(#site-overlay:target) {
+  overflow: hidden;
+  height: 100vh;
+}
