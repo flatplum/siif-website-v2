@@ -36,13 +36,11 @@
 
 .site-nav__hamburger {
   font-size: 4rem;
-  pointer-events: auto;
 }
 
 .site-nav__cross {
   font-size: 4rem;
   display: none;
-  pointer-events: none;
 }
 
 /* See global.css for scroll disable */
@@ -52,11 +50,9 @@ body:has(#site-overlay:target) .site-nav__links {
 }
 body:has(#site-overlay:target) .site-nav__hamburger {
   display: none;
-  pointer-events: none
 }
 body:has(#site-overlay:target) .site-nav__cross {
   display: block; 
-  pointer-events: auto;
 }
 
 @media (min-width: 992px) {
