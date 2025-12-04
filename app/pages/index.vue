@@ -67,10 +67,6 @@
   background-color: var(--off-white);
   flex-wrap: wrap;
   align-items: center;
-  /* This hack is necessary for the blur to stay straight */
-  width: calc(100% + 2rem);
-  left: -1rem;
-  position: relative
 }
 
 .stat {
