@@ -44,7 +44,9 @@
   background-position: 50% 30%;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  padding: 4rem;
+  box-sizing: border-box;
 }
 
 .hero-banner__image {
