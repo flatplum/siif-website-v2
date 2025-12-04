@@ -63,7 +63,7 @@
   display: flex;
   justify-content: center;
   gap: 2rem 4rem;
-  padding: 2rem;
+  padding: 2rem 4rem;
   margin: 0;
   filter: drop-shadow(0 0 1rem);
   background-color: var(--off-white);
