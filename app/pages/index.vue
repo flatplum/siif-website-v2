@@ -89,7 +89,7 @@
 }
 
 .about-us {
-  padding: 0 max(4rem);
+  padding: 0 max(2rem, 5%);
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
