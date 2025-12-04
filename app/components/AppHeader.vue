@@ -31,7 +31,8 @@
 }
 
 .site-nav__links {
-  display: none
+  display: none;
+  padding-right: 1rem
 }
 
 .site-nav__hamburger {
