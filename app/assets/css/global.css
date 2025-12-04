@@ -8,10 +8,13 @@ a {
   text-decoration: inherit
 }
 
-
 :root {
   --off-white: #fff5ee;
   --off-black: #0e0e10;
+}
+
+body {
+  background-color: var(--off-white)
 }
 
 html:has(#site-overlay:target),
