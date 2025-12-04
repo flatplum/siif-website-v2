@@ -44,3 +44,9 @@
   padding: 0.8rem;
   border-radius: 0.8rem
 }
+
+@media (max-width: 992px) {
+  .text--hero {
+    font-size: 4.5rem
+  }
+}
