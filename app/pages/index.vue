@@ -60,7 +60,7 @@
 .stats-bar {
   display: flex;
   justify-content: center;
-  gap: 0 4rem;
+  gap: 2rem 4rem;
   padding: 2rem;
   margin: 0;
   filter: drop-shadow(0 0 1rem);
