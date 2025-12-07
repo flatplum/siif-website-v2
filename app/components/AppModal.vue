@@ -2,10 +2,10 @@
   <dialog class="site-overlay" id="site-overlay">
     <div class="site-overlay__window"></div>
     <nav class="site-overlay__body">
-      <a class="site-overlay__link text--sans" href="/committee">committee</a>
-      <a class="site-overlay__link text--sans" href="/publications#">publications</a>
-      <a class="site-overlay__link text--sans" href="/events#">events</a>
-      <a class="site-overlay__link text--sans" href="/contact#">contact</a>
+      <NuxtLink class="site-overlay__link text--sans" href="/committee">committee</NuxtLink>
+      <NuxtLink class="site-overlay__link text--sans" href="/publications">publications</NuxtLink>
+      <NuxtLink class="site-overlay__link text--sans" href="/events">events</NuxtLink>
+      <NuxtLink class="site-overlay__link text--sans" href="/contact">contact</NuxtLink>
     </nav>
   </dialog>
 </template>
@@ -48,3 +48,23 @@
   padding: 1rem;
 }
 </style>
+
+<script setup>
+import { useRoute } from "vue-router";
+
+const route = useRoute();
+function updateTarget() {
+  /*
+    This might seem nonsensical, but it"s a quirk of SPAs.
+    If the target was set to nothing, it doesn"t refresh until
+    page reload. To force the modal to disappear we force a hash update.
+    This issue doesn"t occur when JavaScript is disabled.
+  */
+  if (window.location.hash == "") {
+    window.location.hash = "";
+    history.replaceState(null, "", window.location.pathname + window.location.search);
+  }
+}
+
+watch(() => route.hash, updateTarget);
+</script>
