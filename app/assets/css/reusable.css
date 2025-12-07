@@ -2,7 +2,7 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  font-family: TeXGyreHeros, Helvetica, sans-serif
+  font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 }
 
 .text--h1 {
@@ -26,16 +26,15 @@
   text-align: center
 }
 
+/* Sourced from https://modernfontstacks.com */
+/* This is Neo-Grotesque */
 .text--sans {
-  font-family: TeXGyreHeros, Helvetica, sans-serif
+  font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 }
 
+/* And this is Didone */
 .text--serif {
-  font-family: "DM Serif Display", Georgia, serif
-}
-
-.text--mono {
-  font-family: "Fira Code", Courier New, monospace
+  font-family: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif;
 }
 
 .button {
