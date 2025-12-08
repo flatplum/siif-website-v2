@@ -6,7 +6,7 @@
 }
 
 .text--h1 {
-  font-size: 3.5rem
+  font-size: 6rem
 }
 
 .text--h2 {
@@ -20,10 +20,9 @@
   margin-bottom: 0.8rem;
 }
 
-.text--hero {
-  font-size: 6rem;
+/* This is labelled as such for future dark mode support */
+.text--invert {
   color: var(--off-white);
-  text-align: center
 }
 
 /* Sourced from https://modernfontstacks.com */
@@ -47,6 +46,11 @@
   color: var(--off-white);
   padding: 0.8rem;
   border-radius: 0.8rem
+}
+
+.button--invert {
+  background-color: var(--off-white);
+  color: var(--off-black);
 }
 
 @media (max-width: 992px) {

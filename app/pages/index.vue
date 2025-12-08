@@ -1,6 +1,6 @@
 <template>
   <div class="hero-banner">
-    <h1 class="text text--hero text--serif">social impact that's <em>different</em></h1>
+    <h1 class="text text--h1 text--serif text--invert">social impact that's <em>different</em></h1>
   </div>
   <ul class="stats-bar">
     <li class="stat">
