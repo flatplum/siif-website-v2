@@ -4,15 +4,15 @@
   </div>
   <ul class="stats-bar">
     <li class="stat">
-      <h2 class="stat__number text--mono">$14,000+</h2>
+      <h2 class="stat__number text--serif">$14,000+</h2>
       <p class="stat__title text--sans">donated</p>
     </li>
     <li class="stat">
-      <h2 class="stat__number text--mono">$23,000+</h2>
+      <h2 class="stat__number text--serif">$23,000+</h2>
       <p class="stat__title text--sans">capital under management</p>
     </li>
     <li class="stat">
-      <h2 class="stat__number text--mono">450+</h2>
+      <h2 class="stat__number text--serif">450+</h2>
       <p class="stat__title text--sans">members</p>
     </li>
   </ul>
