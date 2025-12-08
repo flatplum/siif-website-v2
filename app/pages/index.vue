@@ -54,6 +54,7 @@
   justify-content: center;
   padding: 4rem;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .hero-banner__image {
@@ -139,6 +140,9 @@
   align-items: center;
   justify-content: center;
   border-radius: 2rem;
+  padding: 4rem;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 @media (min-width: 992px) {
