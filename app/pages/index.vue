@@ -31,6 +31,13 @@
         <img class="about-us__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/about-us.jpg">
       </div>
     </section>
+    <section class="charities">
+      <div class="charities__banner">
+        <h2 class="text text--serif text--h2 text--invert">our charities</h2>
+        <p class="text text--p text--invert">SIIF donates to Save The Children, Fairfax Industries, and other charities you know.</p>
+        <NuxtLink class="button button--invert text--sans" to="/contact">Explore</NuxtLink>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -56,7 +63,7 @@
 }
 
 .homepage {
-  padding: 4rem 0;
+  /* padding: 4rem 0; */
 }
 
 .stats-bar {
@@ -91,7 +98,7 @@
 }
 
 .about-us {
-  padding: 0 max(2rem, 5%);
+  padding: 4rem max(2rem, 5%) 0;
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
@@ -113,7 +120,25 @@
 
 .about-us__img {
   width: 100%;
-  border-radius: 24px;
+  border-radius: 2rem;
+}
+
+.charities {
+  padding: 2rem max(2rem, 5%) 0;
+}
+
+.charities__banner {
+  width: 100%;
+  height: 32rem;
+  background-image: url(https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/charity.webp);
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  background-position: 50% 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
 }
 
 @media (min-width: 992px) {
