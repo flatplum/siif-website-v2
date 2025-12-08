@@ -9,8 +9,7 @@
       <li class="text"><NuxtLink href="/events">events</NuxtLink></li>
       <li class="text"><NuxtLink href="/contact">contact</NuxtLink></li>
     </ul>
-    <a class="site-nav__hamburger text--mono" href="#site-overlay">≡</a>
-    <a class="site-nav__cross text--mono" href="#">🞫</a>
+    <MenuIcon />
   </header>
 </template>
 
@@ -35,35 +34,16 @@
   padding-right: 1rem
 }
 
-.site-nav__hamburger {
-  font-size: 4rem;
-}
-
-.site-nav__cross {
-  font-size: 4rem;
-  display: none;
-}
-
 /* See global.css for scroll disable */
 
 body:has(#site-overlay:target) .site-nav__links {
   display: none;
-}
-body:has(#site-overlay:target) .site-nav__hamburger {
-  display: none;
-}
-body:has(#site-overlay:target) .site-nav__cross {
-  display: block; 
 }
 
 @media (min-width: 992px) {
   .site-nav__links {
     display: flex;
     gap: 2rem
-  }
-
-  .site-nav__hamburger {
-    display: none
   }
 }
 </style>
