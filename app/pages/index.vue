@@ -121,6 +121,8 @@
 
 .about-us__img {
   width: 100%;
+  min-height: 24rem;
+  object-fit: cover;
   border-radius: 2rem;
 }
 
