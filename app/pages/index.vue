@@ -39,6 +39,23 @@
         <NuxtLink class="button button--invert text--sans" to="/contact">Explore</NuxtLink>
       </div>
     </section>
+    <section class="sponsors">
+      <h2 class="text text--serif text--h2">our sponsors</h2>
+      <div class="sponsors__container">
+        <NuxtLink class="sponsors__icon">
+          <img class="sponsors__icon-img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/bybit.png">
+        </NuxtLink>
+        <NuxtLink class="sponsors__icon">
+          <img class="sponsors__icon-img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/ey.png">
+        </NuxtLink>
+        <NuxtLink class="sponsors__icon">
+          <img class="sponsors__icon-img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/jadig.png">
+        </NuxtLink>
+        <NuxtLink class="sponsors__icon">
+          <img class="sponsors__icon-img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/rivercapital.jpg">
+        </NuxtLink>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -148,6 +165,26 @@
   text-align: center;
 }
 
+.sponsors {
+  text-align: center;
+  padding: 2rem max(4rem, 5%) 0;
+}
+
+.sponsors__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem 8rem;
+  justify-content: space-between;
+}
+
+.sponsors__icon {
+  flex-grow: 1;
+}
+
+.sponsors__icon-img {
+  height: 8rem;
+}
+
 @media (min-width: 992px) {
   .about-us {
     flex-direction: row;
@@ -161,6 +198,14 @@
 
   .about-us__right {
     width: calc(50% - 1rem);
+  }
+  
+  .sponsors__container {
+    justify-content: center;
+  }
+
+  .sponsors__icon {
+    flex-grow: 0
   }
 }
 </style>
