@@ -7,7 +7,7 @@
             <p class="nojs-popup__msg">It looks like you don't have JavaScript enabled! The website should still work (though with a bit less functionality).</p>
           </div>
           <form method="dialog">
-            <button class="nojs-popup__dismiss">🞫</button>
+            <button class="nojs-popup__dismiss">&times;</button>
           </form>
         </div>
       </dialog>
