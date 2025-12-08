@@ -56,6 +56,21 @@
         </NuxtLink>
       </div>
     </section>
+    <section class="community">
+      <h2 class="text text--serif text--h2">join our community!</h2>
+      <div class="community__container">
+        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus1.jpg">
+        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus2.jpg">
+        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus3.jpg">
+        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus4.jpg">
+        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus5.jpg">
+        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus6.jpg">
+        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus7.jpg">
+        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus8.jpg">
+        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus9.jpg">
+        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus10.jpg">
+      </div>
+    </section>
   </main>
 </template>
 
@@ -175,6 +190,7 @@
   flex-wrap: wrap;
   gap: 2rem 8rem;
   justify-content: space-between;
+  margin-top: 2rem
 }
 
 .sponsors__icon {
@@ -183,6 +199,22 @@
 
 .sponsors__icon-img {
   height: 8rem;
+}
+
+.community {
+  text-align: center;
+  padding: 4rem max(2rem, 5%) 0;
+}
+
+.community__container {
+  columns: 12rem 3;
+  margin-top: 2rem
+}
+
+.community__img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
 }
 
 @media (min-width: 992px) {
