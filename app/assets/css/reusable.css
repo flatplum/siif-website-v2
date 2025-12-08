@@ -37,6 +37,11 @@
   font-family: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif;
 }
 
+/* And this is Monospace Slab Serif */
+.text--mono {
+  font-family: 'Nimbus Mono PS', 'Courier New', monospace;
+}
+
 .button {
   background-color: var(--off-black);
   color: var(--off-white);
