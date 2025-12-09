@@ -35,7 +35,7 @@
     <section class="charities">
       <div class="charities__banner">
         <h2 class="text text--serif text--h2 text--invert">our charities</h2>
-        <p class="text text--p text--invert">SIIF donates to Save The Children, Fairfax Industries, and other charities you know.</p>
+        <p class="text text--p text--invert">SIIF donates to Save The Children, Pets Of The Homeless, and other charities you know.</p>
         <NuxtLink class="button button--invert text--sans" to="/contact">Explore</NuxtLink>
       </div>
     </section>
