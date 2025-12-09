@@ -102,7 +102,7 @@
 .homepage {
   display: flex;
   flex-direction: column;
-  gap: 6rem;
+  gap: 2rem;
   padding: 4rem max(2rem, 10%);
 }
 
@@ -227,6 +227,10 @@
 }
 
 @media (min-width: 992px) {
+  .homepage {
+    gap: 6rem;
+  }
+
   .about-us {
     flex-direction: row;
     flex-wrap: nowrap;
