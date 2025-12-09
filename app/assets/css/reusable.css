@@ -42,15 +42,16 @@
 }
 
 .button {
-  background-color: var(--off-black);
-  color: var(--off-white);
-  padding: 0.8rem;
-  border-radius: 0.8rem
+  background-color: none;
+  color: var(--off-black);
+  padding: 0.8rem 1.6rem;
+  border: 1px solid var(--off-black);
+  display: inline-block;
 }
 
 .button--invert {
-  background-color: var(--off-white);
-  color: var(--off-black);
+  color: var(--off-white);
+  border: 1px solid var(--off-white); 
 }
 
 @media (max-width: 992px) {
