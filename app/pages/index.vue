@@ -52,7 +52,7 @@
           <img class="sponsors__icon-img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/jadig.png">
         </NuxtLink>
         <NuxtLink class="sponsors__icon">
-          <img class="sponsors__icon-img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/rivercapital.jpg">
+          <img class="sponsors__icon-img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/rivercapital.png">
         </NuxtLink>
       </div>
     </section>
