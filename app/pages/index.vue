@@ -52,13 +52,12 @@
       </div>
     </section>
     <!-- I'm really not a fan of this section's design! -->
-    <!-- <section class="charities">
+    <section class="charities">
       <div class="charities__banner">
         <h2 class="text text--serif text--h2 text--invert">our charities</h2>
-        <p class="text text--p text--invert">SIIF donates to Save The Children, Pets Of The Homeless, and other charities you know.</p>
         <NuxtLink class="button button--invert text--sans" to="/contact">EXPLORE</NuxtLink>
       </div>
-    </section> -->
+    </section>
     <section class="community">
       <h2 class="text text--serif text--h2">why not join us?</h2>
       <p class="text text--p">We want <em>you</em> to be a part of SIIF.<br>Follow us on our socials or contact us to find out how to get involved!</p>
