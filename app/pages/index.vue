@@ -99,7 +99,10 @@
 }
 
 .homepage {
-  /* padding: 4rem 0; */
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 2rem;
 }
 
 .stats-bar {
@@ -134,7 +137,7 @@
 }
 
 .about-us {
-  padding: 12rem max(2rem, 5%) 0;
+  /* padding: 12rem max(2rem, 5%) 0; */
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
@@ -164,7 +167,7 @@
 }
 
 .charities {
-  padding: 8rem max(2rem, 5%) 0;
+  /* padding: 8rem max(2rem, 5%) 0; */
 }
 
 .charities__banner {
@@ -186,13 +189,14 @@
 
 .sponsors {
   text-align: center;
-  padding: 8rem max(4rem, 5%) 0;
+  padding: 0 2rem;
+  /* padding: 8rem max(4rem, 5%) 0; */
 }
 
 .sponsors__container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem 2rem;
+  gap: 0.5rem 4rem;
   justify-content: space-between;
   margin-top: 2rem
 }
@@ -207,7 +211,7 @@
 
 .community {
   text-align: center;
-  padding: 8rem max(2rem, 5%) 0;
+  /* padding: 8rem max(2rem, 5%) 0; */
 }
 
 .community__container {
@@ -222,6 +226,10 @@
 }
 
 @media (min-width: 992px) {
+  .homepage {
+    padding: 8rem 10% 0;
+  }
+
   .about-us {
     flex-direction: row;
     flex-wrap: nowrap;
