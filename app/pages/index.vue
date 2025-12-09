@@ -149,7 +149,7 @@
 
 .about-us__left {
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   box-sizing: border-box;
 }
 
