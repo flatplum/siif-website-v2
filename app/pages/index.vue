@@ -58,7 +58,7 @@
       </div>
     </section>
     <section class="community">
-      <h2 class="text text--serif text--h2">join our community!</h2>
+      <h2 class="text text--serif text--h2">why not join us?</h2>
       <p class="text text--p">We want <em>you</em> to be a part of SIIF.<br>Follow us on our socials or contact us to find out how to get involved!</p>
       <div class="community__container">
         <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus1.jpg">
@@ -202,7 +202,7 @@
 }
 
 .sponsors__icon-img {
-  height: 4rem;
+  height: 6rem;
 }
 
 .community {
@@ -245,7 +245,7 @@
   }
 
   .sponsors__icon-img {
-    height: 6rem;
+    height: 8rem;
   }
 
   .sponsors__container {
