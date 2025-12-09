@@ -1,21 +1,28 @@
 <template>
-  <footer>
-    <noscript>
-      <dialog class="nojs-popup" open>
-        <div class="nojs-popup__wrapper">
-          <div class="nojs-popup__msg-box text--mono">
-            <p class="nojs-popup__msg">It looks like you don't have JavaScript enabled! The website should still work (though with a bit less functionality).</p>
-          </div>
-          <form method="dialog">
-            <button class="nojs-popup__dismiss">&times;</button>
-          </form>
-        </div>
-      </dialog>
-    </noscript>
+  <footer class="site-footer">
+
   </footer>
+  <noscript>
+    <dialog class="nojs-popup" open>
+      <div class="nojs-popup__wrapper">
+        <div class="nojs-popup__msg-box text--mono">
+          <p class="nojs-popup__msg">It looks like you don't have JavaScript enabled! The website should still work (though with a bit less functionality).</p>
+        </div>
+        <form method="dialog">
+          <button class="nojs-popup__dismiss">&times;</button>
+        </form>
+      </div>
+    </dialog>
+  </noscript>
 </template>
 
 <style scoped>
+.site-footer {
+  width: 100%;
+  height: 18rem;
+  background-color: var(--dark-blue);
+}
+
 .nojs-popup__msg-box {
   flex-grow: 1;
   display: flex;
