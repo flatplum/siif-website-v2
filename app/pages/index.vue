@@ -31,14 +31,6 @@
         <img class="about-us__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/about-us.jpg">
       </div>
     </section>
-    <!-- I'm really not a fan of this section's design! -->
-    <section class="charities">
-      <div class="charities__banner">
-        <h2 class="text text--serif text--h2 text--invert">our charities</h2>
-        <p class="text text--p text--invert">SIIF donates to Save The Children, Pets Of The Homeless, and other charities you know.</p>
-        <NuxtLink class="button button--invert text--sans" to="/contact">EXPLORE</NuxtLink>
-      </div>
-    </section>
     <section class="sponsors">
       <p class="text text--p">our amazing work wouldn't be possible without...</p>
       <h2 class="text text--serif text--h2">our sponsors</h2>
@@ -55,6 +47,14 @@
         <NuxtLink class="sponsors__icon">
           <img class="sponsors__icon-img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/rivercapital.png">
         </NuxtLink>
+      </div>
+    </section>
+    <!-- I'm really not a fan of this section's design! -->
+    <section class="charities">
+      <div class="charities__banner">
+        <h2 class="text text--serif text--h2 text--invert">our charities</h2>
+        <p class="text text--p text--invert">SIIF donates to Save The Children, Pets Of The Homeless, and other charities you know.</p>
+        <NuxtLink class="button button--invert text--sans" to="/contact">EXPLORE</NuxtLink>
       </div>
     </section>
     <section class="community">
