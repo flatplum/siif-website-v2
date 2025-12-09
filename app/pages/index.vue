@@ -23,7 +23,7 @@
         <div class="about-us__text">
           <h2 class="text text--serif text--h2">who we are</h2>
           <p class="text text--p">The Social Impact Investment Fund is the first and only student led investment fund in Victoria managing real capital. We provide students the opportunity to pitch investment ideas to a team of committee and sponsor representatives, and employ those ideas into a tangible portfolio.</p>
-          <p class="text text--p"><b>All</b> proceeds go towards our nominated charities.</p>
+          <p class="text text--p"><em>All</em> proceeds go towards our nominated charities.</p>
         </div>
         <NuxtLink class="button text--sans" to="/contact">CONTACT US</NuxtLink>
       </div>
@@ -36,10 +36,11 @@
       <div class="charities__banner">
         <h2 class="text text--serif text--h2 text--invert">our charities</h2>
         <p class="text text--p text--invert">SIIF donates to Save The Children, Pets Of The Homeless, and other charities you know.</p>
-        <NuxtLink class="button button--invert text--sans" to="/contact">Explore</NuxtLink>
+        <NuxtLink class="button button--invert text--sans" to="/contact">EXPLORE</NuxtLink>
       </div>
     </section>
     <section class="sponsors">
+      <p class="text text--p">our amazing work wouldn't be possible without...</p>
       <h2 class="text text--serif text--h2">our sponsors</h2>
       <div class="sponsors__container">
         <NuxtLink class="sponsors__icon">
@@ -58,6 +59,7 @@
     </section>
     <section class="community">
       <h2 class="text text--serif text--h2">join our community!</h2>
+      <p class="text text--p">We want <em>you</em> to be a part of SIIF.<br>Follow us on our socials or contact us to find out how to get involved!</p>
       <div class="community__container">
         <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus1.jpg">
         <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus2.jpg">
@@ -132,7 +134,7 @@
 }
 
 .about-us {
-  padding: 4rem max(2rem, 5%) 0;
+  padding: 12rem max(2rem, 5%) 0;
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
@@ -141,11 +143,13 @@
 }
 
 .about-us__left {
-  text-align: center
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
 .about-us__text {
-  padding-bottom: 2rem
+  padding-bottom: 0.5rem;
 }
 
 .about-us__right {
@@ -160,7 +164,7 @@
 }
 
 .charities {
-  padding: 2rem max(2rem, 5%) 0;
+  padding: 8rem max(2rem, 5%) 0;
 }
 
 .charities__banner {
@@ -182,13 +186,13 @@
 
 .sponsors {
   text-align: center;
-  padding: 2rem max(4rem, 5%) 0;
+  padding: 8rem max(4rem, 5%) 0;
 }
 
 .sponsors__container {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem 8rem;
+  gap: 1rem 2rem;
   justify-content: space-between;
   margin-top: 2rem
 }
@@ -198,12 +202,12 @@
 }
 
 .sponsors__icon-img {
-  height: 8rem;
+  height: 4rem;
 }
 
 .community {
   text-align: center;
-  padding: 4rem max(2rem, 5%) 0;
+  padding: 8rem max(2rem, 5%) 0;
 }
 
 .community__container {
@@ -238,6 +242,14 @@
 
   .sponsors__icon {
     flex-grow: 0
+  }
+
+  .sponsors__icon-img {
+    height: 6rem;
+  }
+
+  .sponsors__container {
+    gap: 2rem 4rem;
   }
 }
 </style>
