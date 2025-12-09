@@ -5,6 +5,11 @@
   font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 }
 
+/* I admit these utility classes are getting a bit stupid */
+.text--inline-block {
+  display: inline-block;
+}
+
 .text--h1 {
   font-size: 6rem
 }

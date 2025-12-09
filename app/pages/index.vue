@@ -32,8 +32,10 @@
       </div>
     </section>
     <section class="sponsors">
-      <p class="text text--p">our amazing work wouldn't be possible without...</p>
-      <h2 class="text text--serif text--h2">our sponsors</h2>
+      <div class="sponsors__title">
+        <p class="text text--p text--inline-block">our amazing work wouldn't be possible without...</p>
+        <h2 class="text text--serif text--h2 text--inline-block">our sponsors</h2>
+      </div>
       <div class="sponsors__container">
         <NuxtLink class="sponsors__icon">
           <img class="sponsors__icon-img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/bybit.png">
@@ -50,13 +52,13 @@
       </div>
     </section>
     <!-- I'm really not a fan of this section's design! -->
-    <section class="charities">
+    <!-- <section class="charities">
       <div class="charities__banner">
         <h2 class="text text--serif text--h2 text--invert">our charities</h2>
         <p class="text text--p text--invert">SIIF donates to Save The Children, Pets Of The Homeless, and other charities you know.</p>
         <NuxtLink class="button button--invert text--sans" to="/contact">EXPLORE</NuxtLink>
       </div>
-    </section>
+    </section> -->
     <section class="community">
       <h2 class="text text--serif text--h2">why not join us?</h2>
       <p class="text text--p">We want <em>you</em> to be a part of SIIF.<br>Follow us on our socials or contact us to find out how to get involved!</p>
@@ -101,8 +103,8 @@
 .homepage {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
-  padding: 2rem;
+  gap: 6rem;
+  padding: 4rem max(2rem, 10%);
 }
 
 .stats-bar {
@@ -156,14 +158,12 @@
 }
 
 .about-us__right {
-  border-radius: 24px;
 }
 
 .about-us__img {
   width: 100%;
   min-height: 24rem;
   object-fit: cover;
-  border-radius: 2rem;
 }
 
 .charities {
@@ -181,7 +181,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 2rem;
   padding: 4rem;
   box-sizing: border-box;
   text-align: center;
@@ -196,9 +195,8 @@
 .sponsors__container {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem 4rem;
   justify-content: space-between;
-  margin-top: 2rem
+  margin-top: 0.5rem
 }
 
 .sponsors__icon {
@@ -207,6 +205,11 @@
 
 .sponsors__icon-img {
   height: 6rem;
+}
+
+.sponsors__title {
+  display: flex;
+  flex-direction: column;
 }
 
 .community {
@@ -222,14 +225,9 @@
 .community__img {
   width: 100%;
   margin-bottom: 1rem;
-  border-radius: 1rem;
 }
 
 @media (min-width: 992px) {
-  .homepage {
-    padding: 8rem 10% 0;
-  }
-
   .about-us {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -244,8 +242,16 @@
     width: calc(50% - 1rem);
   }
   
+  .sponsors__title {
+    flex-direction: row;
+    gap: 1rem;
+    align-items: baseline;
+    justify-content: center;
+  }
+
   .sponsors__container {
     justify-content: center;
+    gap: 0.5rem 4rem;
   }
 
   .sponsors__icon {
