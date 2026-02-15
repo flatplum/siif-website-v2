@@ -1,7 +1,5 @@
 <template>
-  <div class="hero-banner">
-    <h1 class="text text--h1 text--serif text--invert">social impact that's <em>different</em></h1>
-  </div>
+  <Banner title="social impact or something" />
   <ul class="stats-bar">
     <li class="stat">
       <h2 class="stat__number text--serif">$14,000+</h2>
@@ -78,27 +76,6 @@
 </template>
 
 <style scoped>
-.hero-banner {
-  width: 100%;
-  height: 32rem;
-  background-image: url(https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/committee-hero.jpg);
-  background-color: rgba(0, 0, 0, 0.7);
-  background-blend-mode: darken;
-  background-position: 50% 30%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 4rem;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.hero-banner__image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover
-}
-
 .homepage {
   display: flex;
   flex-direction: column;

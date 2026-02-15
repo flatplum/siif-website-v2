@@ -1,0 +1,33 @@
+<template>
+  <div class="hero-banner">
+    <h1 class="text text--h1 text--serif text--invert">{{ title }}</h1>
+  </div>
+</template>
+
+<script setup>
+import { defineProps } from 'vue'
+
+const props = defineProps({
+  title: {
+    type: String,
+    required: true
+  },
+})
+</script>
+
+<style scoped>
+.hero-banner {
+  width: 100%;
+  height: 32rem;
+  background-image: url(https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/committee-hero.jpg);
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  background-position: 50% 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+</style>
