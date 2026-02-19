@@ -6,6 +6,9 @@ export default defineNuxtConfig({
     },
     '/contact': {
       redirect: '/contact/club-membership'
+    },
+    '/publications': {
+      redirect: '/publications/articles'
     }
   },
   app: {
