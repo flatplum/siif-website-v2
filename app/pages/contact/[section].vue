@@ -19,7 +19,7 @@ const section = computed(() => {
 
 <template>
   <Banner title="contact us" />
-  <main class=main>
+  <main class="main">
     <nav class="main-nav">
       <ul>
         <li class="text text--h3 text--serif"><NuxtLink href="/contact/club-membership">club membership</NuxtLink></li>
@@ -36,18 +36,42 @@ const section = computed(() => {
 <style scoped>
 .main {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  padding: 6rem max(2rem, 5%);
-  gap: 6rem;
+  padding: 2rem max(2rem, 5%);
+  gap: 2rem;
 }
 
 .main-nav {
   display: flex;
   flex-direction: column;
   min-width: 18rem;
+  text-align: center;
+}
+
+.main-nav > ul {
+  padding: 0
 }
 
 .main-section {
   flex-grow: 1;
+  text-align: center;
+}
+
+
+@media (min-width: 992px) {
+  .main {
+    flex-direction: row;
+    padding: 6rem max(2rem, 5%);
+    gap: 6rem;
+  }
+
+  .main-nav {
+    text-align: left;
+  }
+
+  .main-section {
+    text-align: left;
+  }
 }
 </style>
