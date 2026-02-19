@@ -2,6 +2,7 @@
   <dialog class="site-overlay" id="site-overlay">
     <div class="site-overlay__window"></div>
     <nav class="site-overlay__body">
+      <NuxtLink class="site-overlay__link text--sans" href="/about-us">about us</NuxtLink>
       <NuxtLink class="site-overlay__link text--sans" href="/committee">committee</NuxtLink>
       <NuxtLink class="site-overlay__link text--sans" href="/publications">publications</NuxtLink>
       <NuxtLink class="site-overlay__link text--sans" href="/events">events</NuxtLink>
