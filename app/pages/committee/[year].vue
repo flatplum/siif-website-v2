@@ -4,30 +4,30 @@
   <section class="main">
     <div class="year-picker">
       <ul>
-        <li class="text text--h3">
+        <li class="text text--h3 text--serif">
           <NuxtLink
             to="/committee/2026 Sem 1"
             class="nav-link"
           >
-            2026 Sem 1
+            2026 sem 1
           </NuxtLink>
         </li>
 
-        <li class="text text--h3">
+        <li class="text text--h3 text--serif">
           <NuxtLink
             to="/committee/2025 Sem 2"
             class="nav-link"
           >
-            2025 Sem 2
+            2025 sem 2
           </NuxtLink>
         </li>
 
-        <li class="text text--h3">
+        <li class="text text--h3 text--serif">
           <NuxtLink
             to="/committee/2025 Sem 1"
             class="nav-link"
           >
-            2025 Sem 1
+            2025 sem 1
           </NuxtLink>
         </li>
       </ul>
@@ -39,13 +39,19 @@
 
 <style scoped>
 .year-picker {
-  width: 20rem
+  min-width: 18rem;
+  text-align: center;
+}
+
+.year-picker > ul {
+  padding: 0
 }
 
 .main {
   display: flex;
   flex-direction: column;
-  padding: 10rem
+  padding: 2rem max(2rem, 5%);
+  gap: 2rem;
 }
 
 
@@ -77,6 +83,8 @@
 @media (min-width: 992px) {
   .main {
     flex-direction: row;
+    padding: 6rem max(2rem, 5%);
+    gap: 6rem;
   }
 
   .committee-row {
