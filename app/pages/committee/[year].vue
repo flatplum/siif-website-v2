@@ -44,13 +44,14 @@
 }
 
 .year-picker > ul {
-  padding: 0
+  padding: 0;
+  text-align: left;
 }
 
 .main {
   display: flex;
   flex-direction: column;
-  padding: 2rem max(2rem, 5%);
+  padding: 2rem max(2rem, 10%);
   gap: 2rem;
 }
 
@@ -83,7 +84,7 @@
 @media (min-width: 992px) {
   .main {
     flex-direction: row;
-    padding: 6rem max(2rem, 5%);
+    padding: 6rem max(2rem, 10%);
     gap: 6rem;
   }
 
