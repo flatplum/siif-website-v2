@@ -1,5 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  routeRules: {
+    '/committee': {
+      redirect: '/committee/2026%20Sem%201'
+    },
+    '/contact': {
+      redirect: '/contact/club-membership'
+    }
+  },
   app: {
     head: {
       link: [
