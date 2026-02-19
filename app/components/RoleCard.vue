@@ -1,6 +1,6 @@
 <template>
   <div class="role-card">
-    <h3 class="text text--h3">{{ role.title }}</h3>
+    <h3 class="text text--h3 text--serif">{{ role.title }}</h3>
     <div class="member-group">
       <div v-for="member in role.relation" :key="member.id" class="member">
         <img class="member-img" :src="member.url" :alt="member.name" />
