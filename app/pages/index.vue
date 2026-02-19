@@ -1,5 +1,5 @@
 <template>
-  <Banner title="social impact or something" />
+  <Banner title="social impact that's different" />
   <ul class="stats-bar">
     <li class="stat">
       <h2 class="stat__number text--serif">$14,000+</h2>
