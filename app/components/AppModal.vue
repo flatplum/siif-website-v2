@@ -2,11 +2,11 @@
   <dialog class="site-overlay" id="site-overlay">
     <div class="site-overlay__window"></div>
     <nav class="site-overlay__body">
-      <NuxtLink class="site-overlay__link text--sans" href="/about-us">about us</NuxtLink>
-      <NuxtLink class="site-overlay__link text--sans" href="/committee">committee</NuxtLink>
-      <NuxtLink class="site-overlay__link text--sans" href="/publications">publications</NuxtLink>
-      <NuxtLink class="site-overlay__link text--sans" href="/events">events</NuxtLink>
-      <NuxtLink class="site-overlay__link text--sans" href="/contact">contact</NuxtLink>
+      <NuxtLink class="site-overlay__link text--sans" href="/about-us" external>about us</NuxtLink>
+      <NuxtLink class="site-overlay__link text--sans" href="/committee" external>committee</NuxtLink>
+      <NuxtLink class="site-overlay__link text--sans" href="/publications" external>publications</NuxtLink>
+      <NuxtLink class="site-overlay__link text--sans" href="/events" external>events</NuxtLink>
+      <NuxtLink class="site-overlay__link text--sans" href="/contact" external>contact</NuxtLink>
     </nav>
   </dialog>
 </template>
