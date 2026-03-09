@@ -1,25 +1,28 @@
 <template>
-  <div class="hero-banner">
+  <div class="hero-banner" :style="backgroundStyles">
     <h1 class="text text--h1 text--serif text--invert">{{ title }}</h1>
   </div>
 </template>
 
 <script setup>
-import { defineProps } from 'vue'
-
 const props = defineProps({
   title: {
     type: String,
     required: true
   },
 })
+
+const img = useImage()
+const imgUrl = img('/v1772458824/IMG_8254_vo2ius.jpg', { width: 1600 })
+const backgroundStyles = {
+  backgroundImage: `url('${imgUrl}')`
+}
 </script>
 
 <style scoped>
 .hero-banner {
   width: 100%;
   height: 32rem;
-  background-image: url(https://res.cloudinary.com/dugjyatvx/image/upload/v1772458824/IMG_8254_vo2ius.jpg);
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: darken;
   background-position: 50% 30%;
