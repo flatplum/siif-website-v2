@@ -14,7 +14,7 @@ const committeeImages = [
   <Banner title="social impact that's different" />
   <ul class="stats-bar">
     <li class="stat">
-      <h2 class="stat__number text--serif">$14,000+</h2>
+      <h2 class="stat__number text--serif">$1,400+</h2>
       <p class="stat__title text--sans">donated</p>
     </li>
     <li class="stat">
@@ -22,7 +22,7 @@ const committeeImages = [
       <p class="stat__title text--sans">capital under management</p>
     </li>
     <li class="stat">
-      <h2 class="stat__number text--serif">450+</h2>
+      <h2 class="stat__number text--serif">500+</h2>
       <p class="stat__title text--sans">members</p>
     </li>
   </ul>
