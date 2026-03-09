@@ -1,3 +1,15 @@
+<script setup>
+const committeeImages = [
+  '/v1772597859/joinus1_uaylhm.jpg',
+  '/v1772597859/joinus2_tuidyb.jpg',
+  '/v1772597861/joinus3_mholae.heic',
+  '/v1772597859/joinus4_l16ikg.heic',
+  '/v1772597861/joinus5_fhvw6a.heic',
+  '/v1772597869/joinus6_nduawb.jpg',
+  '/v1772597862/joinus7_hzkxj9.jpg'
+]
+</script>
+
 <template>
   <Banner title="social impact that's different" />
   <ul class="stats-bar">
@@ -82,32 +94,11 @@
       <p class="text text--p">We want <em>you</em> to be a part of SIIF.<br>Follow us on our socials or contact us to find out how to get involved!</p>
       <div class="community__container">
         <NuxtImg
-          class="community__img" 
-          src="/v1772597859/joinus1_uaylhm.jpg"
-        />
-        <NuxtImg
-          class="community__img" 
-          src="/v1772597859/joinus2_tuidyb.jpg"
-        />
-        <NuxtImg
-          class="community__img" 
-          src="/v1772597861/joinus3_mholae.heic"
-        />
-        <NuxtImg
-          class="community__img" 
-          src="/v1772597859/joinus4_l16ikg.heic"
-        />
-        <NuxtImg
-          class="community__img" 
-          src="/v1772597861/joinus5_fhvw6a.heic"
-        />
-        <NuxtImg
-          class="community__img" 
-          src="/v1772597869/joinus6_nduawb.jpg"
-        />
-        <NuxtImg
-          class="community__img" 
-          src="/v1772597862/joinus7_hzkxj9.jpg"
+          v-for="src in committeeImages"
+          :key="src"
+          class="community__img"
+          :src="src"
+          width="300"
         />
       </div>
     </section>
