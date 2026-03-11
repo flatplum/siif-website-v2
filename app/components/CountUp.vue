@@ -19,7 +19,7 @@ const props = defineProps({
   },
   duration: {
     type: Number,
-    default: 1000
+    default: 6220
   }
 })
 
@@ -28,16 +28,24 @@ const prettyNumber = computed(() => {
   return props.prefix + numberRef.value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + props.suffix 
 })
 
+function easeOut(t) {
+  t = Math.min(Math.max(t, 0), 1)
+  return 1 - (1 - t) ** 3
+}
+
 onMounted(() => {
   let zero;
   function step(timestamp) {
-    numberRef.value = Number(props.start) + Math.floor((props.end - props.start) * (timestamp - zero) / props.duration)
+    numberRef.value = 
+      Number(props.start) 
+      + Math.floor(
+        (props.end - props.start) * easeOut((timestamp - zero) / props.duration)
+      )
     if ((timestamp - zero) / props.duration < 1) {
       requestAnimationFrame(step)
     }
   }
   function first(timestamp) {
-    numberRef.value = props.start
     zero = timestamp
     requestAnimationFrame(step)
   }

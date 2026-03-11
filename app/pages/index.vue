@@ -14,15 +14,15 @@ const committeeImages = [
   <Banner title="social impact that's different" />
   <ul class="stats-bar">
     <li class="stat">
-      <CountUp class="stat__number text--serif" start=1000 end=1400 prefix="$" suffix="+" />
+      <CountUp class="stat__number text--serif" :start=1000 :end=1400 prefix="$" suffix="+" />
       <p class="stat__title text--sans">donated</p>
     </li>
     <li class="stat">
-      <CountUp class="stat__number text--serif" start=10000 end=23000 prefix="$" suffix="+" />
+      <CountUp class="stat__number text--serif" :start=10000 :end=23000 prefix="$" suffix="+" />
       <p class="stat__title text--sans">capital under management</p>
     </li>
     <li class="stat">
-      <CountUp class="stat__number text--serif" start=100 end=500 suffix="+" />
+      <CountUp class="stat__number text--serif" :start=100 :end=500 suffix="+" />
       <p class="stat__title text--sans">members</p>
     </li>
   </ul>
