@@ -34,7 +34,7 @@ const prettyNumber = computed(() => {
 
 function easeOut(t) {
   t = Math.min(Math.max(t, 0), 1)
-  return 1 - (1 - t) ** 3
+  return Math.sin(Math.PI / 2 * t)
 }
 
 onMounted(() => {
